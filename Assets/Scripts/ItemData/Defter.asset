@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f7ca74917d5c0f47a28dd00a6f90698, type: 3}
+  m_Name: Defter
+  m_EditorClassIdentifier: 
+  id: 1
+  itemName: Defter
+  value: 0
+  itemIcon: {fileID: 559114243, guid: 44bc9abe972e6f242b309c92e9a9c830, type: 3}
