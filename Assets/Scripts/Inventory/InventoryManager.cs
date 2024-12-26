@@ -18,7 +18,6 @@ public class InventoryManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             inventoryPanel.SetActive(true);
-            ListItems();
         }
         if (Input.GetKeyDown(KeyCode.X))
         {
@@ -40,29 +39,16 @@ public class InventoryManager : MonoBehaviour
     public void AddItem(ItemData item)
     {
         Items.Add(item);
+
+        GameObject obj = Instantiate(inventoryItem, itemContent);
+        var itemNameText = obj.transform.Find("ItemName").GetComponent<TMP_Text>();
+        var itemIcon = obj.transform.Find("ItemIcon").GetComponent<Image>();
+
+        itemNameText.text = item.itemName;
+        itemIcon.sprite = item.itemIcon;
+
+        SuspectManager.instance.RemoveSuspects(item);
     }
 
-    public void ListItems()
-    {
-        foreach (Transform item in itemContent)
-        {
-            Destroy(item.gameObject);
-        }
-        foreach (var item in Items)
-        {
-            GameObject obj = Instantiate(inventoryItem, itemContent);
-            var itemName = obj.transform.Find("ItemName").GetComponent<TMP_Text>();
-            var itemIcon = obj.transform.Find("ItemIcon").GetComponent<Image>();
-
-            itemName.text = item.itemName;
-            itemIcon.sprite = item.itemIcon;
-        }
-
-    }
-    
-    public void RemoveSuspects()
-    {
-
-    }
 
 }

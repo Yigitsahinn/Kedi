@@ -1,34 +1,57 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class SuspectManager : MonoBehaviour
 {
-    public List<GameObject> suspectUIs;
-    public List<int> nailSuspects;
-    public List<int> featherSuspects;
+    public static SuspectManager instance;
 
-    public void CollectItem(string itemName)
+    public List<Suspect> suspects;
+    public List<NailSO> nailSOs; // sarı siyah yeşil
+    public List<FeatherSO> featherSOs;
+
+    private void Awake()
     {
-
-
-        if (itemName == "T�rnak")
-        {
-            EliminateSuspects(nailSuspects); 
-        }
-        else if (itemName == "T�y")
-        {
-            EliminateSuspects(featherSuspects); 
-        }
+        instance = this;
     }
 
-    private void EliminateSuspects(List<int> suspectIndices)
+    public void RemoveSuspects(ItemData item)
     {
-        foreach (int index in suspectIndices)
+
+        if(item.id == 1) // sarı tırnak id'si
         {
-            if (index >= 0 && index < suspectUIs.Count) 
+            foreach(NailSO nailSO in nailSOs)
             {
-                Destroy(suspectUIs[index]); 
+                if (nailSO.nailType == NailType.yellow) continue;
+
+                foreach(Suspect sus in suspects)
+                {
+                    if (nailSO.suspects.Contains(sus.getSuspectName()))
+                    {
+                        sus.EliminateSuspect();
+                    }
+                }
             }
         }
+        else if(item.id == 2) // siyah tüy id'si
+        {
+            foreach (FeatherSO featherSO in featherSOs)
+            {
+                if (featherSO.featherType == FeatherType.black) continue;
+
+                foreach (Suspect sus in suspects)
+                {
+                    if (featherSO.suspects.Contains(sus.getSuspectName()))
+                    {
+                        sus.EliminateSuspect();
+                    }
+                }
+            }
+        }
+
+
     }
+
+
+
+    
 }
