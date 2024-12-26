@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f7ca74917d5c0f47a28dd00a6f90698, type: 3}
   m_Name: Defter
   m_EditorClassIdentifier: 
-  id: 1
   itemName: Defter
-  value: 0
   itemIcon: {fileID: 559114243, guid: 44bc9abe972e6f242b309c92e9a9c830, type: 3}
+  id: -1
