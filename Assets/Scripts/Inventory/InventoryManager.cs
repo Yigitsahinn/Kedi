@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting.ReorderableList;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,19 +10,27 @@ public class InventoryManager : MonoBehaviour
     public List<ItemData> Items = new List<ItemData>();
     [SerializeField] private Transform itemContent;
     [SerializeField] private GameObject inventoryItem;
-    [SerializeField] private GameObject panel;
+    [SerializeField] private GameObject inventoryPanel;
+    [SerializeField] private GameObject suspectPanel;
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            panel.SetActive(true);
+            inventoryPanel.SetActive(true);
             ListItems();
+        }
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            suspectPanel.SetActive(true);
         }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            panel.SetActive(false);
+            inventoryPanel.SetActive(false);
+            suspectPanel.SetActive(false);
         }
+
+
     }
     private void Awake()
     {
@@ -48,5 +57,12 @@ public class InventoryManager : MonoBehaviour
             itemName.text = item.itemName;
             itemIcon.sprite = item.itemIcon;
         }
+
     }
+    
+    public void RemoveSuspects()
+    {
+
+    }
+
 }

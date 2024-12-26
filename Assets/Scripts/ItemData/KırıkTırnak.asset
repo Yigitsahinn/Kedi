@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: "K\u0131r\u0131kT\u0131rnak"
   m_EditorClassIdentifier: 
   id: 2
-  itemName: "K\u0131r\u0131k T\u0131rnak"
+  itemName: "T\u0131rnak"
   value: 0
   itemIcon: {fileID: -1197196463, guid: 9c44c66aaa9faad46a13e53f6e63ce44, type: 3}
