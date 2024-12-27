@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|c:\\users\\yigit\\onedrive\\belgeler\\github\\kedi\\assets\\scripts\\dialog\\minasokak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\minasokak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\assets\\scripts\\game\\scenechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\scenechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|c:\\users\\yigit\\onedrive\\belgeler\\github\\kedi\\assets\\scripts\\dialog\\arkada\u015Fkafe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\arkada\u015Fkafe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\assets\\scripts\\dialog\\karamezarl\u0131k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\karamezarl\u0131k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\assets\\scripts\\movement\\enterbuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement\\enterbuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MinaSokak.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Dialog\\MinaSokak.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\MinaSokak.cs",
+              "ToolTip": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Dialog\\MinaSokak.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\MinaSokak.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T23:34:43.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Arkada\u015FKafe.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Dialog\\Arkada\u015FKafe.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\Arkada\u015FKafe.cs",
+              "ToolTip": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Dialog\\Arkada\u015FKafe.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\Arkada\u015FKafe.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAwwHMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T18:56:09.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KaraMezarl\u0131k.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Dialog\\KaraMezarl\u0131k.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\KaraMezarl\u0131k.cs",
+              "ToolTip": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Dialog\\KaraMezarl\u0131k.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\KaraMezarl\u0131k.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAswHIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T20:02:35.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnterBuilding.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Movement\\EnterBuilding.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Movement\\EnterBuilding.cs",
+              "ToolTip": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Movement\\EnterBuilding.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Movement\\EnterBuilding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T17:54:18.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SceneChange.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Game\\SceneChange.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\SceneChange.cs",
+              "ToolTip": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Game\\SceneChange.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\SceneChange.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T17:53:25.687Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

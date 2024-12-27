@@ -27,10 +27,7 @@ public class MinaSokak : MonoBehaviour
 
     void Update()
     {
-        //if (Input.GetKey(KeyCode.Escape)) 
-        //{ 
-
-        //}
+       
     }
 
     void OnTriggerEnter(Collider other)

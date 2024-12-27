@@ -60,7 +60,7 @@ public class KaraMezarlýk : MonoBehaviour
         if (dialogueStage == 0)
         {
             option1Button.GetComponentInChildren<TMP_Text>().text = "Meriç’in iþ yerine neden döndüðünü biliyor musun?";
-            option2Button.GetComponentInChildren<TMP_Text>().text = "Sence Meriç'in düþmaný olabilir mi?”";
+            option2Button.GetComponentInChildren<TMP_Text>().text = "Sence Meriç'in düþmaný olabilir mi?";
             option3Button.GetComponentInChildren<TMP_Text>().text = "O gece garip bir þey fark ettin mi?";
         }
     }

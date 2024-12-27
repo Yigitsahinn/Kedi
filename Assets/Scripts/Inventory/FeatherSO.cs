@@ -13,5 +13,6 @@ public enum FeatherType
     None,
     green,
     yellow,
-    black
+    black,
+    gray
 }

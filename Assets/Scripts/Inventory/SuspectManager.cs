@@ -36,7 +36,7 @@ public class SuspectManager : MonoBehaviour
         {
             foreach (FeatherSO featherSO in featherSOs)
             {
-                if (featherSO.featherType == FeatherType.black) continue;
+                if (featherSO.featherType == FeatherType.gray) continue;
 
                 foreach (Suspect sus in suspects)
                 {
@@ -49,9 +49,5 @@ public class SuspectManager : MonoBehaviour
         }
 
 
-    }
-
-
-
-    
+    }    
 }
