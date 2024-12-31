@@ -420,6 +420,7 @@
 "Assets/Scripts/Dialog/RıfkıMezarlık.cs"
 "Assets/Scripts/Dialog/StressScript.cs"
 "Assets/Scripts/Game/DontDestroy.cs"
+"Assets/Scripts/Game/MousePosition.cs"
 "Assets/Scripts/Game/SceneChange.cs"
 "Assets/Scripts/Inventory/FeatherSO.cs"
 "Assets/Scripts/Inventory/InventoryManager.cs"
