@@ -3,17 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using Ink.Runtime;
-using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
+using DG.Tweening;
+
 
 public class KaraMezarlýk : MonoBehaviour
 {
-    [SerializeField] GameObject interactionIndicator;
-    [SerializeField] GameObject dialoguePanel;
-    [SerializeField] TMP_Text dialogueText;
-    [SerializeField] Button option1Button;
-    [SerializeField] Button option2Button;
-    [SerializeField] Button option3Button;
+    [SerializeField] private GameObject player;
+    [SerializeField] private GameObject interactionIndicator;
+    [SerializeField] private GameObject dialoguePanel;
+    [SerializeField] private TMP_Text dialogueText;
+    [SerializeField] UnityEngine.UI.Button option1Button;
+    [SerializeField] UnityEngine.UI.Button option2Button;
+    [SerializeField] UnityEngine.UI.Button option3Button;
 
     private bool isPlayerNear = false;
     private int dialogueStage = 0;
@@ -63,6 +65,9 @@ public class KaraMezarlýk : MonoBehaviour
             option2Button.GetComponentInChildren<TMP_Text>().text = "Sence Meriç'in düþmaný olabilir mi?";
             option3Button.GetComponentInChildren<TMP_Text>().text = "O gece garip bir þey fark ettin mi?";
         }
+
+        player.transform.DOMove(new Vector3(5, (float)-1.45, 0), 2f);
+        player.transform.rotation = Quaternion.Euler(0, 40, 0);
     }
 
     void PlayerChoiceKara(int choice)
