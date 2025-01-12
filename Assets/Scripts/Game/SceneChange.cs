@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 public class SceneChange : MonoBehaviour
 {
     [SerializeField] private GameObject map;
+    GameManager gameManager;
+    private void Awake()
+    {
+        gameManager = GetComponent<GameManager>();
+    }
     private void Update()
     {
         if (Input.GetKey(KeyCode.M))
@@ -22,9 +27,14 @@ public class SceneChange : MonoBehaviour
         SceneManager.LoadScene(2);
         map.SetActive(false);
     }
-    public void ArifSokak()
+    public void UygarSokak()
     {
         SceneManager.LoadScene(3);
         map.SetActive(false);
+    }
+
+    public void KarakolFinal()
+    {
+        SceneManager.LoadScene(4);
     }
 }

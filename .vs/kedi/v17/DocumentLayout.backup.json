@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|c:\\users\\yigit\\onedrive\\belgeler\\github\\kedi\\assets\\scripts\\animation\\playeranimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animation\\playeranimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\assets\\scripts\\dialog\\minasokak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\minasokak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\assets\\scripts\\dialog\\karamezarl\u0131k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\karamezarl\u0131k.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|c:\\users\\yigit\\onedrive\\belgeler\\github\\kedi\\assets\\scripts\\inventory\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|c:\\users\\yigit\\onedrive\\belgeler\\github\\kedi\\assets\\scripts\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\assets\\scripts\\game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerAnimator.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Animation\\PlayerAnimator.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Animation\\PlayerAnimator.cs",
-              "ToolTip": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Animation\\PlayerAnimator.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Animation\\PlayerAnimator.cs",
+              "DocumentIndex": 1,
+              "Title": "ItemPickup.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Inventory\\ItemPickup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\ItemPickup.cs",
+              "ToolTip": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Inventory\\ItemPickup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\ItemPickup.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T12:01:03.646Z",
+              "WhenOpened": "2025-01-10T01:16:42.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "KaraMezarl\u0131k.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Dialog\\KaraMezarl\u0131k.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\KaraMezarl\u0131k.cs",
-              "ToolTip": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Dialog\\KaraMezarl\u0131k.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dialog\\KaraMezarl\u0131k.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwEQAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "InventoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Inventory\\InventoryManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\InventoryManager.cs",
+              "ToolTip": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Inventory\\InventoryManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\InventoryManager.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T20:02:35.401Z",
+              "WhenOpened": "2025-01-10T01:13:22.768Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MinaSokak.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Dialog\\MinaSokak.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\MinaSokak.cs",
+              "ToolTip": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Dialog\\MinaSokak.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\MinaSokak.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwDsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T23:44:48.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Game\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\GameManager.cs",
+              "ToolTip": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Game\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Game\\GameManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T10:36:04.35Z"
             }
           ]
         }

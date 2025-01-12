@@ -12,6 +12,7 @@ public class MinaMezarlık : MonoBehaviour
     //[SerializeField] Button option3Button;
 
     private bool isPlayerNear = false;
+    public bool minaGorev = false;
     private int dialogueStage = 0;
     public void Close()
     {
@@ -59,7 +60,7 @@ public class MinaMezarlık : MonoBehaviour
         if (dialogueStage == 0)
         {
             dialogueText.text = "Tekir eşimi yeni kaybettim konuşacak durumda değilim. Git başımdan.";
-
+            minaGorev = true;
             option1Button.GetComponentInChildren<TMP_Text>().text = "Özür dilerim Mina, haklısın. Seni yalnız bırakayım";
             //option2Button.GetComponentInChildren<TMP_Text>().text = "O gece neden iş yerine geri döndü, fikrin var mı?";
             //option3Button.GetComponentInChildren<TMP_Text>().text = "Meriç’in düşmanı olabilecek biri var mıydı?";

@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.24f1 (11fa355cd605) revision 1178165'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'tr' Physical Memory: 16109 MB
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'tr' Physical Memory: 32038 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ C:/Users/yigit/OneDrive/Belgeler/GitHub/Kedi
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52286
+51857
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/yigit/OneDrive/Belgeler/GitHub/Kedi
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19408]  Target information:
+Player connection [2844]  Target information:
 
-Player connection [19408]  * "[IP] 192.168.1.60 [Port] 0 [Flags] 2 [Guid] 2402354310 [EditorId] 2402354310 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VRLTBDE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [2844]  * "[IP] 192.168.1.40 [Port] 0 [Flags] 2 [Guid] 3144781463 [EditorId] 3144781463 [Version] 1048832 [Id] WindowsEditor(7,yigit) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19408] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [19408] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2844] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2844] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.24f1 (11fa355cd605)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Resources/UnitySubsystems
@@ -83,57 +83,55 @@ Initialize engine version: 6000.0.24f1 (11fa355cd605)
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2820)
     Vendor:   NVIDIA
-    VRAM:     3964 MB
-    Driver:   32.0.15.6636
+    VRAM:     7948 MB
+    Driver:   32.0.15.5594
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.005317 seconds.
-- Loaded All Assemblies, in  0.515 seconds
+Registered in 0.002589 seconds.
+- Loaded All Assemblies, in  0.300 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 330 ms
+Android Extension - Scanning For ADB Devices 282 ms
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.788 seconds
-Domain Reload Profiling: 1301ms
-	BeginReloadAssembly (171ms)
+- Finished resetting the current domain, in  0.593 seconds
+Domain Reload Profiling: 893ms
+	BeginReloadAssembly (103ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (207ms)
-		LoadAssemblies (170ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (123ms)
+		LoadAssemblies (101ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (202ms)
-			TypeCache.Refresh (200ms)
-				TypeCache.ScanAssembly (183ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (107ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (789ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (594ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (739ms)
+		SetupLoadedEditorAssemblies (555ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (442ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (191ms)
-			ProcessInitializeOnLoadMethodAttributes (89ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (350ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -144,66 +142,197 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.322 seconds
+- Loaded All Assemblies, in  0.745 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.049 seconds
-Domain Reload Profiling: 2368ms
-	BeginReloadAssembly (550ms)
+- Finished resetting the current domain, in  0.596 seconds
+Domain Reload Profiling: 1340ms
+	BeginReloadAssembly (306ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (644ms)
-		LoadAssemblies (504ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (372ms)
+		LoadAssemblies (267ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (309ms)
-			TypeCache.Refresh (234ms)
-				TypeCache.ScanAssembly (210ms)
-			BuildScriptInfoCaches (63ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1050ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (127ms)
+			BuildScriptInfoCaches (36ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (597ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (746ms)
+		SetupLoadedEditorAssemblies (420ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (613ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (349ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4411 unused Assets / (1.5 MB). Loaded Objects now: 5016.
-Memory consumption went from 119.7 MB to 118.2 MB.
-Total: 12.055300 ms (FindLiveObjects: 1.398900 ms CreateObjectMapping: 0.551000 ms MarkObjects: 8.464000 ms  DeleteObjects: 1.639000 ms)
+Unloading 4421 unused Assets / (1.4 MB). Loaded Objects now: 5029.
+Memory consumption went from 119.9 MB to 118.6 MB.
+Total: 7.010900 ms (FindLiveObjects: 0.705100 ms CreateObjectMapping: 0.585100 ms MarkObjects: 4.568300 ms  DeleteObjects: 1.151100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 606774.368118 seconds.
-  path: Assets/Scenes/Karakol.unity
-  artifactKey: Guid(e6a2da4b6675cad438f77c85c739585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Karakol.unity using Guid(e6a2da4b6675cad438f77c85c739585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae938a37eec40c33ade29ace45849c21') in 0.0110532 seconds
+  Time since last request: 152816.961915 seconds.
+  path: Assets/UI/uı.png
+  artifactKey: Guid(deb394bd008c34a46a9b97b949b66ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/uı.png using Guid(deb394bd008c34a46a9b97b949b66ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c5c74bc5eff500ab3450752dedd94f3') in 0.0510284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.431756 seconds.
+  path: Assets/UI/uı.png
+  artifactKey: Guid(deb394bd008c34a46a9b97b949b66ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/uı.png using Guid(deb394bd008c34a46a9b97b949b66ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3a1797ca481350f97fc5f3c10ccb98c') in 0.0137009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.105113 seconds.
+  path: Assets/UI/uı.png
+  artifactKey: Guid(deb394bd008c34a46a9b97b949b66ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/uı.png using Guid(deb394bd008c34a46a9b97b949b66ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5597cb0e1e72a7dedc89556bc2930e88') in 0.0620563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 512.004357 seconds.
+  path: Assets/texture/Bump.jpg
+  artifactKey: Guid(288c3aeefcf924f4d8d870cedb88fa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture/Bump.jpg using Guid(288c3aeefcf924f4d8d870cedb88fa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdf7603c559edd70e91ff96b948fc86b') in 0.0111328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.715981 seconds.
+  path: Assets/texture/cobblestone
+  artifactKey: Guid(e725181b813f7de4696cd0795c90f376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture/cobblestone using Guid(e725181b813f7de4696cd0795c90f376) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4900782420fffdc96896f55bd1439a67') in 0.0006421 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.071517 seconds.
+  path: Assets/texture/cobblestone/COBBLESTONES-05_AO_4k.jpg
+  artifactKey: Guid(ded2f32a2d06b004f9f3f405242959b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture/cobblestone/COBBLESTONES-05_AO_4k.jpg using Guid(ded2f32a2d06b004f9f3f405242959b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e55a8dfd485fd88507bcea6f215c6b27') in 0.0072917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003339 seconds.
+  path: Assets/texture/cobblestone/COBBLESTONES-05_Color_4k.jpg
+  artifactKey: Guid(9bcf322848303124fa6dc01c9d5cf185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture/cobblestone/COBBLESTONES-05_Color_4k.jpg using Guid(9bcf322848303124fa6dc01c9d5cf185) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fec25944e8b6f02c34aac320e6d68534') in 0.0086721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/texture/cobblestone/COBBLESTONES-05_Depth_4k.png
+  artifactKey: Guid(387cebcb06e31824b950324352a2c67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture/cobblestone/COBBLESTONES-05_Depth_4k.png using Guid(387cebcb06e31824b950324352a2c67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5995cbdc504c10269ae62c52d22cf67b') in 0.0073695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/texture/cobblestone/COBBLESTONES-05_Gloss_4k.jpg
+  artifactKey: Guid(7de139edd160e8045aa3510b7f4bf4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture/cobblestone/COBBLESTONES-05_Gloss_4k.jpg using Guid(7de139edd160e8045aa3510b7f4bf4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '596d9bc40c78820a8aa4278d52d71109') in 0.0062901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/texture/cobblestone/COBBLESTONES-05_Normal_4k.jpg
+  artifactKey: Guid(dfadb30f1fd24724da0b38aff305e23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture/cobblestone/COBBLESTONES-05_Normal_4k.jpg using Guid(dfadb30f1fd24724da0b38aff305e23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46e53e05a9472cdbd574eb119ffab1e4') in 0.008559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/texture/cobblestone/COBBLESTONES-05_Roughness_4k.jpg
+  artifactKey: Guid(c890df76258307846aff9b4d4a879257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture/cobblestone/COBBLESTONES-05_Roughness_4k.jpg using Guid(c890df76258307846aff9b4d4a879257) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34874d0b2785752fee437bc226c2c0f1') in 0.007859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/texture/cobblestone/COBBLESTONES-05_HiGloss_4k.jpg
+  artifactKey: Guid(6c1dccd7d2849574d820d43eb9002a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture/cobblestone/COBBLESTONES-05_HiGloss_4k.jpg using Guid(6c1dccd7d2849574d820d43eb9002a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72aa73cfaa55fe3844a685e3f37e0c50') in 0.007209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.663256 seconds.
+  path: Assets/texture/cobblestone/Materials
+  artifactKey: Guid(8afc9321138be63419b908be2a8229d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture/cobblestone/Materials using Guid(8afc9321138be63419b908be2a8229d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'affe4b66e39c82cc2e06e56883881cad') in 0.0006978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062318 seconds.
+  path: Assets/texture/cobblestone/Materials/COBBLESTONES-05_AO_4k.mat
+  artifactKey: Guid(7acb832b2040eab458be8219d3b5273d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture/cobblestone/Materials/COBBLESTONES-05_AO_4k.mat using Guid(7acb832b2040eab458be8219d3b5273d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eea8280ab716e8bb297919c6781b18f') in 0.0340287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007289 seconds.
+  path: Assets/texture/cobblestone/Materials/COBBLESTONES-05_Depth_4k.mat
+  artifactKey: Guid(9d9deb868c87bb142b3043e7562ccd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture/cobblestone/Materials/COBBLESTONES-05_Depth_4k.mat using Guid(9d9deb868c87bb142b3043e7562ccd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9791885410ec927270a3ddc3ffd5de4') in 0.0093657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/texture/cobblestone/Materials/COBBLESTONES-05_Gloss_4k.mat
+  artifactKey: Guid(2814762b59660b2498a95a5cad1344c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture/cobblestone/Materials/COBBLESTONES-05_Gloss_4k.mat using Guid(2814762b59660b2498a95a5cad1344c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ce3f5fc6204b0631efb19e0c2c17f65') in 0.0115068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/texture/cobblestone/Materials/COBBLESTONES-05_Normal_4k.mat
+  artifactKey: Guid(3d9915b1bd8b2ed4b9df27daa39c6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture/cobblestone/Materials/COBBLESTONES-05_Normal_4k.mat using Guid(3d9915b1bd8b2ed4b9df27daa39c6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c19e5f808c716a234572bf500ac17ef') in 0.0130764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

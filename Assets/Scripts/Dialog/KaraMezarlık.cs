@@ -16,9 +16,13 @@ public class KaraMezarlýk : MonoBehaviour
     [SerializeField] UnityEngine.UI.Button option1Button;
     [SerializeField] UnityEngine.UI.Button option2Button;
     [SerializeField] UnityEngine.UI.Button option3Button;
+    [SerializeField] private MovementScript playerAnim;
+
 
     private bool isPlayerNear = false;
+    public bool karakolGorev = false;
     private int dialogueStage = 0;
+    private Animator animator;
 
     void Start()
     {
@@ -33,7 +37,11 @@ public class KaraMezarlýk : MonoBehaviour
 
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            dialoguePanel.SetActive(false);
+            player.transform.rotation = Quaternion.Euler(0, 90, 0);
+        }
     }
 
     void OnTriggerEnter(Collider other)
@@ -95,6 +103,7 @@ public class KaraMezarlýk : MonoBehaviour
                 option3Button.GetComponentInChildren<TMP_Text>().text = "Kara, baþýmýza bela olmasýndan korkacak mýyýz? Meriç’i kaybettik. Gerçek ne olursa olsun, ben öðrenmek zorundayým.\r\n";
                 option1Button.gameObject.SetActive(false);
                 option2Button.gameObject.SetActive(false);
+                karakolGorev = true;
             }
 
             // Yeni seçenekleri göster

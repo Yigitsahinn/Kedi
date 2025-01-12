@@ -1,5 +1,5 @@
 sceneSetups:
-- path: "Assets/Scenes/Yak\u0131n Arkada\u015F.unity"
+- path: "Assets/Scenes/Mezarl\u0131k.unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0

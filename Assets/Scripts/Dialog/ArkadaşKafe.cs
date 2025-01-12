@@ -97,15 +97,17 @@ public class ArkadaşKafe : MonoBehaviour
             if (choice == 3)
             {
                 int roll = Random.Range(1, 11);
-                if (roll < 5)
-                {
-                    dialogueText.text = "Tekir, sana söyledim işte! Daha fazlasını bilmiyorum. Beni sıkıştırmayı bırak!\r\n";
-                }
-                else
+                if (roll < 11)
                 {
                     dialogueText.text = "Tamam, tamam… Son konuşmamızda bir şey söyledi. Karakoldaki gri tüylü bir kediyle ilgiliydi. İsim vermedi ama açıkça ona güvenmediğini belli etti. Daha fazlasını bilmiyorum.\r\n";
                     InventoryManager.Instance.AddItem(item);
+                    //dialogueText.text = "Tekir, sana söyledim işte! Daha fazlasını bilmiyorum. Beni sıkıştırmayı bırak!\r\n";
                 }
+                //else
+                //{
+                //    dialogueText.text = "Tamam, tamam… Son konuşmamızda bir şey söyledi. Karakoldaki gri tüylü bir kediyle ilgiliydi. İsim vermedi ama açıkça ona güvenmediğini belli etti. Daha fazlasını bilmiyorum.\r\n";
+                //    InventoryManager.Instance.AddItem(item);
+                //}
 
                 option4Button.GetComponentInChildren<TMP_Text>().text = "Meriç’in ölümüyle ilgili gerçeği bulacağım. Eğer başka bir şey hatırlarsan, bana haber ver.\r\n";
 

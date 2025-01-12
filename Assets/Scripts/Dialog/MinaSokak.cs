@@ -6,6 +6,8 @@ public class MinaSokak : MonoBehaviour
 {
     [SerializeField] GameObject interactionIndicator;
     [SerializeField] GameObject dialoguePanel;
+    [SerializeField] GameObject uygarPanel;
+    [SerializeField] GameObject uygarText;
     [SerializeField] TMP_Text dialogueText;
     [SerializeField] Button option1Button;
     [SerializeField] Button option2Button;
@@ -13,7 +15,12 @@ public class MinaSokak : MonoBehaviour
 
     private bool isPlayerNear = false;
     private int dialogueStage = 0;
+    GameManager gameManager;
 
+    private void Awake()
+    {
+        gameManager = GetComponent<GameManager>();
+    }
     void Start()
     {
         interactionIndicator.SetActive(false);
@@ -61,6 +68,7 @@ public class MinaSokak : MonoBehaviour
             option2Button.GetComponentInChildren<TMP_Text>().text = "Meriç’in düþmaný olabilecek biri var mýydý?";
             option3Button.GetComponentInChildren<TMP_Text>().text = "Meriç’in özel bir þeyini biliyor musun? Günlük gibi bir þey tuttuðunu fark ettin mi?";
         }
+        
     }
 
     void PlayerChoiceMina(int choice)
@@ -75,8 +83,10 @@ public class MinaSokak : MonoBehaviour
             }
             else if (choice == 2)
             {
-                dialogueText.text = "Meriç genelde insanlarla iyi geçinirdi. Ama son zamanlarda bir telefon konuþmasýna denk geldim. Birine sinirli bir þekilde baðýrýyordu, ama kim olduðunu bilmiyorum. Ondan sonra sessizleþmiþti… Belki bu önemli bir þeydir.\r\n";
-                
+                dialogueText.text = "Meriç genelde insanlarla iyi geçinirdi. Ama son zamanlarda bir telefon konuþmasýna denk geldim. Birine sinirli bir þekilde baðýrýyordu, ama kim olduðunu bilmiyorum. Ondan sonra sessizleþmiþti… Belki bu önemli bir þeydir. Belki Uygar bir þey biliyordur Meriç'le uzun zamandýr arkadaþlar.";
+                uygarPanel.SetActive(true);
+                uygarText.SetActive(true);
+
             }
             else if (choice == 3)
             {
