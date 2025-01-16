@@ -37,4 +37,9 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
+
+    private void Deneme()
+    {
+        
+    }
 }
