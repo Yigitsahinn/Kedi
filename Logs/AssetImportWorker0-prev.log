@@ -15,7 +15,7 @@ C:/Users/yigit/OneDrive/Belgeler/GitHub/Kedi
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51857
+60480
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/yigit/OneDrive/Belgeler/GitHub/Kedi
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2844]  Target information:
+Player connection [31724]  Target information:
 
-Player connection [2844]  * "[IP] 192.168.1.40 [Port] 0 [Flags] 2 [Guid] 3144781463 [EditorId] 3144781463 [Version] 1048832 [Id] WindowsEditor(7,yigit) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [31724]  * "[IP] 192.168.1.55 [Port] 0 [Flags] 2 [Guid] 389563380 [EditorId] 389563380 [Version] 1048832 [Id] WindowsEditor(7,yigit) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [2844] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [2844] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31724] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31724] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.24f1 (11fa355cd605)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Resources/UnitySubsystems
@@ -91,47 +91,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002589 seconds.
-- Loaded All Assemblies, in  0.300 seconds
+Registered in 0.003973 seconds.
+- Loaded All Assemblies, in  0.295 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 282 ms
+Android Extension - Scanning For ADB Devices 328 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.593 seconds
-Domain Reload Profiling: 893ms
-	BeginReloadAssembly (103ms)
+- Finished resetting the current domain, in  0.618 seconds
+Domain Reload Profiling: 911ms
+	BeginReloadAssembly (96ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (123ms)
-		LoadAssemblies (101ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (94ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (121ms)
-			TypeCache.Refresh (119ms)
-				TypeCache.ScanAssembly (107ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (108ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (594ms)
+	FinalizeReload (618ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (555ms)
+		SetupLoadedEditorAssemblies (584ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (350ms)
+			InitializePlatformSupportModulesInManaged (398ms)
 			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (137ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -142,11 +142,11 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.745 seconds
+- Loaded All Assemblies, in  0.726 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
@@ -155,184 +155,102 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.596 seconds
-Domain Reload Profiling: 1340ms
-	BeginReloadAssembly (306ms)
+- Finished resetting the current domain, in  0.601 seconds
+Domain Reload Profiling: 1324ms
+	BeginReloadAssembly (289ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (29ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (372ms)
-		LoadAssemblies (267ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (368ms)
+		LoadAssemblies (269ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (181ms)
-			TypeCache.Refresh (139ms)
-				TypeCache.ScanAssembly (127ms)
-			BuildScriptInfoCaches (36ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (121ms)
+			BuildScriptInfoCaches (35ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (597ms)
+	FinalizeReload (601ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (420ms)
+		SetupLoadedEditorAssemblies (429ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (34ms)
-			ProcessInitializeOnLoadAttributes (349ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (348ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4421 unused Assets / (1.4 MB). Loaded Objects now: 5029.
-Memory consumption went from 119.9 MB to 118.6 MB.
-Total: 7.010900 ms (FindLiveObjects: 0.705100 ms CreateObjectMapping: 0.585100 ms MarkObjects: 4.568300 ms  DeleteObjects: 1.151100 ms)
+Unloading 4434 unused Assets / (1.4 MB). Loaded Objects now: 5044.
+Memory consumption went from 120.4 MB to 119.0 MB.
+Total: 6.116500 ms (FindLiveObjects: 0.431300 ms CreateObjectMapping: 0.149300 ms MarkObjects: 4.333000 ms  DeleteObjects: 1.201600 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 152816.961915 seconds.
-  path: Assets/UI/uı.png
-  artifactKey: Guid(deb394bd008c34a46a9b97b949b66ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/uı.png using Guid(deb394bd008c34a46a9b97b949b66ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c5c74bc5eff500ab3450752dedd94f3') in 0.0510284 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.490 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.534 seconds
+Domain Reload Profiling: 1023ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (108ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (534ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (374ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4432 unused Assets / (1.2 MB). Loaded Objects now: 5044.
+Memory consumption went from 114.5 MB to 113.3 MB.
+Total: 5.925200 ms (FindLiveObjects: 0.437300 ms CreateObjectMapping: 0.149800 ms MarkObjects: 4.348400 ms  DeleteObjects: 0.988400 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 6.431756 seconds.
-  path: Assets/UI/uı.png
-  artifactKey: Guid(deb394bd008c34a46a9b97b949b66ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/uı.png using Guid(deb394bd008c34a46a9b97b949b66ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3a1797ca481350f97fc5f3c10ccb98c') in 0.0137009 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.105113 seconds.
-  path: Assets/UI/uı.png
-  artifactKey: Guid(deb394bd008c34a46a9b97b949b66ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/uı.png using Guid(deb394bd008c34a46a9b97b949b66ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5597cb0e1e72a7dedc89556bc2930e88') in 0.0620563 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 512.004357 seconds.
-  path: Assets/texture/Bump.jpg
-  artifactKey: Guid(288c3aeefcf924f4d8d870cedb88fa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texture/Bump.jpg using Guid(288c3aeefcf924f4d8d870cedb88fa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdf7603c559edd70e91ff96b948fc86b') in 0.0111328 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.715981 seconds.
-  path: Assets/texture/cobblestone
-  artifactKey: Guid(e725181b813f7de4696cd0795c90f376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texture/cobblestone using Guid(e725181b813f7de4696cd0795c90f376) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4900782420fffdc96896f55bd1439a67') in 0.0006421 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.071517 seconds.
-  path: Assets/texture/cobblestone/COBBLESTONES-05_AO_4k.jpg
-  artifactKey: Guid(ded2f32a2d06b004f9f3f405242959b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texture/cobblestone/COBBLESTONES-05_AO_4k.jpg using Guid(ded2f32a2d06b004f9f3f405242959b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e55a8dfd485fd88507bcea6f215c6b27') in 0.0072917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003339 seconds.
-  path: Assets/texture/cobblestone/COBBLESTONES-05_Color_4k.jpg
-  artifactKey: Guid(9bcf322848303124fa6dc01c9d5cf185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texture/cobblestone/COBBLESTONES-05_Color_4k.jpg using Guid(9bcf322848303124fa6dc01c9d5cf185) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fec25944e8b6f02c34aac320e6d68534') in 0.0086721 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/texture/cobblestone/COBBLESTONES-05_Depth_4k.png
-  artifactKey: Guid(387cebcb06e31824b950324352a2c67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texture/cobblestone/COBBLESTONES-05_Depth_4k.png using Guid(387cebcb06e31824b950324352a2c67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5995cbdc504c10269ae62c52d22cf67b') in 0.0073695 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/texture/cobblestone/COBBLESTONES-05_Gloss_4k.jpg
-  artifactKey: Guid(7de139edd160e8045aa3510b7f4bf4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texture/cobblestone/COBBLESTONES-05_Gloss_4k.jpg using Guid(7de139edd160e8045aa3510b7f4bf4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '596d9bc40c78820a8aa4278d52d71109') in 0.0062901 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/texture/cobblestone/COBBLESTONES-05_Normal_4k.jpg
-  artifactKey: Guid(dfadb30f1fd24724da0b38aff305e23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texture/cobblestone/COBBLESTONES-05_Normal_4k.jpg using Guid(dfadb30f1fd24724da0b38aff305e23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46e53e05a9472cdbd574eb119ffab1e4') in 0.008559 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/texture/cobblestone/COBBLESTONES-05_Roughness_4k.jpg
-  artifactKey: Guid(c890df76258307846aff9b4d4a879257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texture/cobblestone/COBBLESTONES-05_Roughness_4k.jpg using Guid(c890df76258307846aff9b4d4a879257) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34874d0b2785752fee437bc226c2c0f1') in 0.007859 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/texture/cobblestone/COBBLESTONES-05_HiGloss_4k.jpg
-  artifactKey: Guid(6c1dccd7d2849574d820d43eb9002a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texture/cobblestone/COBBLESTONES-05_HiGloss_4k.jpg using Guid(6c1dccd7d2849574d820d43eb9002a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72aa73cfaa55fe3844a685e3f37e0c50') in 0.007209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.663256 seconds.
-  path: Assets/texture/cobblestone/Materials
-  artifactKey: Guid(8afc9321138be63419b908be2a8229d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texture/cobblestone/Materials using Guid(8afc9321138be63419b908be2a8229d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'affe4b66e39c82cc2e06e56883881cad') in 0.0006978 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.062318 seconds.
-  path: Assets/texture/cobblestone/Materials/COBBLESTONES-05_AO_4k.mat
-  artifactKey: Guid(7acb832b2040eab458be8219d3b5273d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texture/cobblestone/Materials/COBBLESTONES-05_AO_4k.mat using Guid(7acb832b2040eab458be8219d3b5273d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eea8280ab716e8bb297919c6781b18f') in 0.0340287 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007289 seconds.
-  path: Assets/texture/cobblestone/Materials/COBBLESTONES-05_Depth_4k.mat
-  artifactKey: Guid(9d9deb868c87bb142b3043e7562ccd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texture/cobblestone/Materials/COBBLESTONES-05_Depth_4k.mat using Guid(9d9deb868c87bb142b3043e7562ccd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9791885410ec927270a3ddc3ffd5de4') in 0.0093657 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/texture/cobblestone/Materials/COBBLESTONES-05_Gloss_4k.mat
-  artifactKey: Guid(2814762b59660b2498a95a5cad1344c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texture/cobblestone/Materials/COBBLESTONES-05_Gloss_4k.mat using Guid(2814762b59660b2498a95a5cad1344c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ce3f5fc6204b0631efb19e0c2c17f65') in 0.0115068 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/texture/cobblestone/Materials/COBBLESTONES-05_Normal_4k.mat
-  artifactKey: Guid(3d9915b1bd8b2ed4b9df27daa39c6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/texture/cobblestone/Materials/COBBLESTONES-05_Normal_4k.mat using Guid(3d9915b1bd8b2ed4b9df27daa39c6573) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c19e5f808c716a234572bf500ac17ef') in 0.0130764 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Prepare: number of updated asset objects reloaded= 0

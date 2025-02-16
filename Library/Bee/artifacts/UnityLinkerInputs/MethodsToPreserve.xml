@@ -1,0 +1,56 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="ArifSorgulama">
+			<method name="ShowDialogue"/>
+		</type>
+		<type fullname="ArkadaşKafe">
+			<method name="Close"/>
+			<method name="ShowDialogue"/>
+		</type>
+		<type fullname="Asansör">
+			<method name="UstKat"/>
+		</type>
+		<type fullname="Asansörorta">
+			<method name="AltKat"/>
+			<method name="UstKat"/>
+		</type>
+		<type fullname="Asansörust">
+			<method name="AltKat"/>
+		</type>
+		<type fullname="GameManager">
+			<method name="Envanter"/>
+			<method name="Harita"/>
+			<method name="Harita"/>
+			<method name="Liste"/>
+		</type>
+		<type fullname="HakanSorgulama">
+			<method name="ShowDialogue"/>
+		</type>
+		<type fullname="KaraMezarlık">
+			<method name="ShowDialogue"/>
+		</type>
+		<type fullname="Menu">
+			<method name="StartTheGame"/>
+		</type>
+		<type fullname="MinaMezarlık">
+			<method name="Close"/>
+			<method name="ShowDialogue"/>
+		</type>
+		<type fullname="MinaSokak">
+			<method name="ShowDialogue"/>
+		</type>
+		<type fullname="RıfkıMezarlık">
+			<method name="ShowDialogue"/>
+		</type>
+		<type fullname="SceneChange">
+			<method name="KarakolFinal"/>
+			<method name="MinaSokak"/>
+			<method name="MinaSokak"/>
+			<method name="MinaSokak"/>
+			<method name="UygarSokak"/>
+		</type>
+		<type fullname="SedaSorgulama">
+			<method name="ShowDialogue"/>
+		</type>
+	</assembly>
+</linker>

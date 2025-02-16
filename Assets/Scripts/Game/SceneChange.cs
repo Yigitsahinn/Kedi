@@ -24,17 +24,22 @@ public class SceneChange : MonoBehaviour
     }
     public void MinaSokak()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
         map.SetActive(false);
     }
     public void UygarSokak()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
         map.SetActive(false);
     }
 
     public void KarakolFinal()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(5);
+    }
+
+    public void Basla()
+    {
+        SceneManager.LoadScene(1);
     }
 }

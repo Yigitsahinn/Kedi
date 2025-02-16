@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: SuspectList
   m_EditorClassIdentifier: 
   itemName: Vardiya Listesi
-  itemIcon: {fileID: 0}
+  itemIcon: {fileID: -1788541294, guid: e83b37d18abe5084ca05ea18519962db, type: 3}
   id: 0

@@ -66,7 +66,7 @@ public class SedaSorgulama : MonoBehaviour
             option2Button.GetComponentInChildren<TMP_Text>().text = "Meriç ile aranýz nasýldý? ";
         }
 
-        player.transform.DOMove(new Vector3(5, (float)-1.45, 0), 2f);
+        player.transform.DOMove(new Vector3(5, (float)7.45, 0), 2f);
         player.transform.rotation = Quaternion.Euler(0, 40, 0);
     }
 

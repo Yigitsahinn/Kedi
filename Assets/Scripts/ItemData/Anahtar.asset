@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Anahtar
   m_EditorClassIdentifier: 
   itemName: "Tekir'in anahtar\u0131"
-  itemIcon: {fileID: 0}
+  itemIcon: {fileID: 1404141236, guid: 66576c5851a2bf54a8f797c8bf9890de, type: 3}
   id: 0

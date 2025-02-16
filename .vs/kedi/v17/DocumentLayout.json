@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|c:\\users\\yigit\\onedrive\\belgeler\\github\\kedi\\assets\\scripts\\movement\\asans\u00F6r ust.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement\\asans\u00F6r ust.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|c:\\users\\yigit\\onedrive\\belgeler\\github\\kedi\\assets\\scripts\\dialog\\arkada\u015Fkafe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\arkada\u015Fkafe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|c:\\users\\yigit\\onedrive\\belgeler\\github\\kedi\\assets\\scripts\\movement\\asans\u00F6r orta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement\\asans\u00F6r orta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|c:\\users\\yigit\\onedrive\\belgeler\\github\\kedi\\assets\\scripts\\dialog\\arifsorgulama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\arifsorgulama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|c:\\users\\yigit\\onedrive\\belgeler\\github\\kedi\\assets\\scripts\\movement\\asans\u00F6r.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement\\asans\u00F6r.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\assets\\scripts\\dialog\\sedasorgulama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\sedasorgulama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\assets\\scripts\\dialog\\hakansorgulama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{897CD869-05D6-0FE1-0E30-03DED59648E8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\hakansorgulama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,41 +31,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Asans\u00F6r ust.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Movement\\Asans\u00F6r ust.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Movement\\Asans\u00F6r ust.cs",
-              "ToolTip": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Movement\\Asans\u00F6r ust.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Movement\\Asans\u00F6r ust.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Title": "Arkada\u015FKafe.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Dialog\\Arkada\u015FKafe.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\Arkada\u015FKafe.cs",
+              "ToolTip": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Dialog\\Arkada\u015FKafe.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\Arkada\u015FKafe.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAkwGYAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T07:00:58.328Z",
+              "WhenOpened": "2025-01-22T22:20:45.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Asans\u00F6r orta.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Movement\\Asans\u00F6r orta.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Movement\\Asans\u00F6r orta.cs",
-              "ToolTip": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Movement\\Asans\u00F6r orta.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Movement\\Asans\u00F6r orta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Title": "ArifSorgulama.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Dialog\\ArifSorgulama.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\ArifSorgulama.cs",
+              "ToolTip": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Dialog\\ArifSorgulama.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\ArifSorgulama.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwEQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T07:00:35.115Z",
+              "WhenOpened": "2025-01-22T22:14:39.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Asans\u00F6r.cs",
-              "DocumentMoniker": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Movement\\Asans\u00F6r.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Movement\\Asans\u00F6r.cs",
-              "ToolTip": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Movement\\Asans\u00F6r.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Movement\\Asans\u00F6r.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Title": "SedaSorgulama.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Dialog\\SedaSorgulama.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\SedaSorgulama.cs",
+              "ToolTip": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Dialog\\SedaSorgulama.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\SedaSorgulama.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwEQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T06:59:34.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T22:14:25.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HakanSorgulama.cs",
+              "DocumentMoniker": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Dialog\\HakanSorgulama.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\HakanSorgulama.cs",
+              "ToolTip": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Kedi\\Assets\\Scripts\\Dialog\\HakanSorgulama.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialog\\HakanSorgulama.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwEQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T22:13:51.629Z"
             }
           ]
         }

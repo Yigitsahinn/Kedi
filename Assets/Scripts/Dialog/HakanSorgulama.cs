@@ -66,7 +66,7 @@ public class HakanSorgulama : MonoBehaviour
             
         }
 
-        player.transform.DOMove(new Vector3(5, (float)-1.45, 0), 2f);
+        player.transform.DOMove(new Vector3(5, (float)14.45, 0), 2f);
         player.transform.rotation = Quaternion.Euler(0, 40, 0);
     }
 
